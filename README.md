@@ -1,11 +1,11 @@
 # Homebrew Tap for Drift
 
-This is the official Homebrew tap for [drift](https://github.com/Harris-A-Khan/drift), an opinionated CLI for Supabase-backed iOS, macOS, and web projects.
+This is the official Homebrew tap for [drift](https://github.com/Undrift/drift), an opinionated CLI for Supabase-backed iOS, macOS, and web projects.
 
 ## Installation
 
 ```bash
-brew tap Harris-A-Khan/tap
+brew tap Undrift/tap
 brew install drift
 ```
 
@@ -19,7 +19,7 @@ brew upgrade drift
 
 ```bash
 brew uninstall drift
-brew untap Harris-A-Khan/tap
+brew untap Undrift/tap
 ```
 
 ## Available Formulae
@@ -30,5 +30,5 @@ brew untap Harris-A-Khan/tap
 
 ## Links
 
-- [drift repository](https://github.com/Harris-A-Khan/drift)
-- [drift releases](https://github.com/Harris-A-Khan/drift/releases)
+- [drift repository](https://github.com/Undrift/drift)
+- [drift releases](https://github.com/Undrift/drift/releases)
