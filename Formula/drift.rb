@@ -1,28 +1,28 @@
 class Drift < Formula
   desc "Opinionated CLI for Supabase-backed iOS, macOS, and web projects"
-  homepage "https://github.com/Harris-A-Khan/drift"
-  version "1.6.2"
+  homepage "https://github.com/Undrift/drift"
+  version "1.6.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Harris-A-Khan/drift/releases/download/v1.6.2/drift-darwin-arm64"
-      sha256 "c1d309ce231724ebd13387f1ebdd9543e21b67079e6972c47925c6ab4691d14c"
+      url "https://github.com/Undrift/drift/releases/download/v1.6.3/drift-darwin-arm64"
+      sha256 "0027b6464cb99f6b0c23734f64557a274a1ce782dcd66406899c4bcf5cfa0f60"
     end
     on_intel do
-      url "https://github.com/Harris-A-Khan/drift/releases/download/v1.6.2/drift-darwin-amd64"
-      sha256 "205230e51a1cff77de777ab5372a7f75bc9abbad15a5f1a1dada5f7929072eeb"
+      url "https://github.com/Undrift/drift/releases/download/v1.6.3/drift-darwin-amd64"
+      sha256 "c8586c6f503341a5a475c59f3d154388cc644064ed69749574fed1b8ed0adcb1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Harris-A-Khan/drift/releases/download/v1.6.2/drift-linux-arm64"
-      sha256 "463048dab10fed70226e6ed3a7c4096600291194b6d4194296456a656155f2c4"
+      url "https://github.com/Undrift/drift/releases/download/v1.6.3/drift-linux-arm64"
+      sha256 "41e76eaa40e3d3f13e7fb7dc51edde72d45a1e9163c88b38aadd773f2c713ac9"
     end
     on_intel do
-      url "https://github.com/Harris-A-Khan/drift/releases/download/v1.6.2/drift-linux-amd64"
-      sha256 "35c444f006624b30aea347e358f92f5796d8f31cd7e4d96b20e2c28027a2625f"
+      url "https://github.com/Undrift/drift/releases/download/v1.6.3/drift-linux-amd64"
+      sha256 "f8c270ec2246601f166c8c14a37c502045dc553713fb77963f749f2768bcd762"
     end
   end
 
